@@ -1,0 +1,51 @@
+.bg-color {
+    background-image: linear-gradient(189deg,
+            hsl(270deg 100% 7%) 9%,
+            hsl(257deg 100% 14%) 50%,
+            hsl(245deg 100% 21%) 50%,
+            hsl(232deg 100% 27%) 51%,
+            hsl(219deg 100% 34%) 52%,
+            hsl(206deg 100% 41%) 55%,
+            hsl(193deg 100% 48%) 58%,
+            hsl(181deg 100% 54%) 62%,
+            hsl(168deg 100% 61%) 67%,
+            hsl(155deg 100% 68%) 73%,
+            hsl(142deg 100% 75%) 79%,
+            hsl(129deg 100% 81%) 85%,
+            hsl(117deg 100% 88%) 93%,
+            hsl(104deg 100% 95%) 100%);
+    height: 100vh;
+}
+
+#signin {
+    text-decoration: none;
+}
+
+.error-email {
+    margin-top: -13px;
+    margin-bottom: -10px;
+}
+
+.pointer {
+    cursor: none;
+}
+
+.forgetPassword { 
+    text-decoration: none;
+}
+
+.hovereffect:hover { 
+    transform: translateY(-3px);
+    transition-duration: 0.4s;
+    color: rgb(136, 126, 200) !important;
+}
+
+.hovereffect:active { 
+    color: red !important;
+    transform: translateY(3px);
+    transition-duration: 0.4s;
+}
+
+.effect:active { 
+    transform: translateY(3px);
+}

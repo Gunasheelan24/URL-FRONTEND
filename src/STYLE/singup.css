@@ -1,0 +1,18 @@
+.error-inside {
+    margin-bottom: -24px;
+    display: none;
+}
+
+.error-inside-not {
+    margin-bottom: -24px;
+}
+
+.error-outside {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.error-outside-not {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}

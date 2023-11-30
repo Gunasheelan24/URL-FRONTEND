@@ -1,0 +1,106 @@
+#bg-color { 
+    height: 100vh;
+    background-image: linear-gradient(160deg,
+                hsl(270deg 100% 7%) 0%,
+                hsl(215deg 100% 36%) 39%,
+                hsl(159deg 100% 66%) 94%,
+                hsl(104deg 100% 95%) 100%);
+}
+
+
+
+#bg-two-color { 
+    background-image: linear-gradient(158deg,
+                hsl(223deg 68% 6%) 9%,
+                hsl(232deg 74% 17%) 50%,
+                hsl(242deg 81% 28%) 50%,
+                hsl(252deg 88% 37%) 53%,
+                hsl(261deg 96% 46%) 57%,
+                hsl(266deg 99% 55%) 63%,
+                hsl(267deg 96% 65%) 71%,
+                hsl(268deg 90% 75%) 80%,
+                hsl(269deg 78% 85%) 89%,
+                hsl(270deg 27% 94%) 100%);
+    height: 100vh;
+}
+
+#place::placeholder { 
+    font-size: large;
+    color: black;
+}
+
+.remove { 
+    text-decoration: none;
+    color: rgb(153, 255, 0) !important;
+}
+
+.effectOne:hover { 
+    transform: translateY(-3px);
+}.effectOne:active { 
+    transform: translateY(2px);
+    background-color: orange !important;
+}
+.effectOne:visited { 
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.dot { 
+    margin-top: -17px;
+    margin-bottom: 5px;
+    color: transparent;
+    font-size: large; 
+    font-weight: 300px;
+}
+.dotWork { 
+    margin-top: -17px;
+    margin-bottom: 5px;
+    color: rgb(80, 241, 220) !important;
+    font-size: large; 
+    font-weight: 500;
+    font-weight: 300px;
+    animation-name: oneDot;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+}
+
+@keyframes oneDot { 
+    0% {
+     color: black !important;
+     transform: translateX(10px);
+    } 
+    20% {
+        color: saddlebrown !important;
+    }
+    50% {
+     color: blue !important;
+    }
+    100% {
+     transform: translateY(0px);
+     transform: translateX(0px);
+    }
+}
+
+.password-hide-one { 
+    margin-top: -10px;
+    margin-bottom: 0;
+    cursor:default !important;
+    color: transparent !important;
+}
+
+.password-hide {
+    margin-top: -10px;
+    margin-bottom: 0;
+    color: antiquewhite;
+}
+
+.doteddd {
+     margin-top: -10px;
+     color: wheat !important;
+     margin-bottom: 0;
+}
+
+.doteddddd { 
+        margin-top: -10px;
+        cursor: default;
+        margin-bottom: 0;
+}

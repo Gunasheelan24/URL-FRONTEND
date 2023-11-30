@@ -1,0 +1,22 @@
+#list-color { 
+    background-color: #031927;
+}
+
+#text-url  {
+    color: #FFFD82 !important;
+    margin-top: -10px;
+}
+
+#url-id { 
+    color: #EBF2FA !important;
+    text-decoration: none;
+}
+
+#list-hide { 
+    list-style: none;
+    text-decoration: none !important;
+}
+
+#ancor-tag { 
+    text-decoration: none !important;
+}

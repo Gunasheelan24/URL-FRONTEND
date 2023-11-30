@@ -1,0 +1,6 @@
+.text-color { 
+    cursor: pointer;
+}
+.text-color:hover { 
+    color: whitesmoke !important;
+}
